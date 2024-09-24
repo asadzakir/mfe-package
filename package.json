@@ -1,0 +1,23 @@
+{
+  "name": "mfe-utilities",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "semantic-release": "^24.1.1",
+    "typescript": "^5.6.2"
+  },
+  "files":[
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
