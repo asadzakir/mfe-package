@@ -1,4 +1,4 @@
-const greet = (name: string) => `${name}!`;
+const greet = (name: string) => `Hello, ${name}!`;
 import { UserForm } from './components/UserForm';
 
 export {
